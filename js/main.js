@@ -1,4 +1,15 @@
+let edad = parseInt(prompt("¿Qué edad tienes?"))
+if (edad < 18) {
+    while(true){
+    alert("¡Eres menor! No puedes entrar")
+}
+}
+else{
+    alert("Adentro! Eres mayor")
+}
 
+
+let rand = Math.round((Math.random))
 
 let numbers = Math.random()
 let captcha = prompt("Ingresa los siguientes números para comprobar que no eres un robot: " + numbers)
